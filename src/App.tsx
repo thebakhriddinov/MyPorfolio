@@ -8,7 +8,7 @@ import Approach from "./components/Approach.tsx";
 
 export default function App() {
   return (
-    <div className="bg-[#01041A] w-full h-screen">
+    <div className="bg-[#01041A] w-full h-screen text-white flex flex-col items-center">
       <Header/>
       <Hero/>
       <About/>
