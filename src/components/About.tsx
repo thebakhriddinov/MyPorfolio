@@ -15,8 +15,8 @@ export default function About() {
             {/* First big wrapper */}
             <div className="flex flex-col gap-5 lg:flex-row">
                 {/* left-wrapper */}
-                <div className="flex flex-col justify-center items-center border rounded-[10px] xl:rounded-[23px] border-[#363749] relative w-[90vw] md:w-99.5 h-76.5 lg:w-172 lg:h-135">
-                    <img className="rounded-[10px] xl:rounded-[23px] xl:w-full"src={pc} alt="pc" />
+                <div className="flex flex-col justify-center items-center border rounded-[10px] xl:rounded-[23px] border-[#363749] relative w-[90vw] md:w-98 h-76.5 lg:w-172 lg:h-135">
+                    <img className="rounded-[10px] xl:rounded-[23px] xl:w-full h-full w-full"src={pc} alt="pc" />
                     <button className="absolute top-45 left-65 lg:top-85 lg:left-125"><img className="lg:w-35 lg:h-15" src={yellow} alt="yellow" /></button>
                     <button className="absolute top-13 left-5 lg:left-10 lg:top-20"><img className="lg:w-37.5 lg:h-15" src={pink} alt="pink" /></button>
                     <h2 className="absolute top-45 lg:top-95 left-5 lg:left-10 text-[20px] lg:text-[32px] font-bold leading-6 lg:leading-9">I prioritize client <br /> collaboration, fostering <br /> open communication </h2>
