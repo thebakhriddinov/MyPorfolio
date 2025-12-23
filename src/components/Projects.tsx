@@ -46,8 +46,8 @@ export default function Projects() {
                     <div className="overflow-hidden relative rounded-[10px] xl:rounded-[14px] my-5 xl:my-9 mx-1 w-[80vw] h-45.5 xl:w-138 xl:h-82.5 md:w-89.5 bg-linear-to-r from-[#2D3567] to-[#151A3A] ">
                         <img className="overflow-hidden absolute top-10 left-7 md:left-12 xl:left-11 rotate-5 transition-all hover:scale-120 w-65 xl:w-118.5 xl:h-64 rounded-t-[10px]" src={start} alt="" />
                     </div>
-                    <h3 className="text-[18px] xl:text-[32px] font-bold">Temurbek School Web Platform</h3>
-                    <p className="text-[12px] xl:text-[20px] text-[#BEC1DD]">A modern educational platform providing an accessible and user-friendly with clean UI and responsive layouts.</p>
+                    <h3 className="text-[18px] xl:text-[32px] font-bold">Innovate. Grow. Succeed.</h3>
+                    <p className="text-[12px] xl:text-[20px] text-[#BEC1DD]">Custom solutions that drive real results. Take the first step toward extraordinary achievements.</p>
                     <div className="relative">
                         {/* img-wrapper */}
                         <div className="relative">
@@ -59,7 +59,7 @@ export default function Projects() {
                         </div>
                         {/* text-wrapper */}
                         <div className="absolute right-0 top-2">
-                            <a href="start-up-three-mu.vercel.app" className="text-[12px] xl:text-[20px]  text-[#CBACF9] flex gap-2 hover:underline">Check Live Site<img src={arrow} alt="arrow" /></a>
+                            <a href="https://start-up-three-mu.vercel.app/" className="text-[12px] xl:text-[20px]  text-[#CBACF9] flex gap-2 hover:underline">Check Live Site<img src={arrow} alt="arrow" /></a>
                         </div>
                     </div>
                 </div>
@@ -73,8 +73,8 @@ export default function Projects() {
                     <div className="overflow-hidden relative rounded-[10px] xl:rounded-[14px] my-5 xl:my-9 mx-1 w-[80vw] h-45.5 xl:w-138 xl:h-82.5 md:w-89.5 bg-linear-to-r from-[#2D3567] to-[#151A3A] ">
                         <img className="overflow-hidden absolute top-10 left-7 md:left-12 xl:left-11 rotate-5 transition-all hover:scale-120 w-65 xl:w-118.5 xl:h-64 rounded-t-[10px]" src={manage} alt="" />
                     </div>
-                    <h3 className="text-[18px] xl:text-[32px] font-bold">Temurbek School Web Platform</h3>
-                    <p className="text-[12px] xl:text-[20px] text-[#BEC1DD]">A modern educational platform providing an accessible and user-friendly with clean UI and responsive layouts.</p>
+                    <h3 className="text-[18px] xl:text-[32px] font-bold">Management platform</h3>
+                    <p className="text-[12px] xl:text-[20px] text-[#BEC1DD]">Manage helps teams plan tasks, track progress, and stay focused on what matters most.</p>
                     <div className="relative">
                         {/* img-wrapper */}
                         <div className="relative">
@@ -97,8 +97,8 @@ export default function Projects() {
                     <div className="overflow-hidden relative rounded-[10px] xl:rounded-[14px] my-5 xl:my-9 mx-1 w-[80vw] h-45.5 xl:w-138 xl:h-82.5 md:w-89.5 bg-linear-to-r from-[#2D3567] to-[#151A3A] ">
                         <img className="overflow-hidden absolute top-10 left-7 md:left-12 xl:left-11 rotate-5 transition-all hover:scale-120 w-65 xl:w-118.5 xl:h-64 rounded-t-[10px]" src={bookmark} alt="" />
                     </div>
-                    <h3 className="text-[18px] xl:text-[32px] font-bold">Temurbek School Web Platform</h3>
-                    <p className="text-[12px] xl:text-[20px] text-[#BEC1DD]">A modern educational platform providing an accessible and user-friendly with clean UI and responsive layouts.</p>
+                    <h3 className="text-[18px] xl:text-[32px] font-bold">Bookmark web</h3>
+                    <p className="text-[12px] xl:text-[20px] text-[#BEC1DD]">This allows you to bookmark your favourite website which you do not lose your access to enter website fast.</p>
                     <div className="relative">
                         {/* img-wrapper */}
                         <div className="relative">
