@@ -99,7 +99,7 @@ export default function Faq() {
             </div>
 
             {/* logo-wrapper */}
-            <div className="mt-8 xl:mt-18 flex flex-wrap justify-center gap-2 xl:gap-10 w-100 xl:w-[90vw]">
+            <div className="mt-8 xl:mt-18 flex flex-wrap justify-center gap-2 xl:gap-10 xl:w-[90vw]">
                 <img className="xl:w-49 xl:h-9.5" src={logo1} alt="logo" />
                 <img className="xl:w-49 xl:h-9.5" src={logo2} alt="logo" /> <br className="xl:hidden"/>
                 <img className="xl:w-49 xl:h-9.5" src={logo3} alt="logo" />
