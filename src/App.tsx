@@ -5,10 +5,11 @@ import Projects from "./components/Projects.tsx";
 import Faq from "./components/Faq.tsx";
 import Experience from "./components/Experience.tsx";
 import Approach from "./components/Approach.tsx";
+import Footer from "./components/Footer.tsx";
 
 export default function App() {
   return (
-    <div className="bg-[#01041A] w-full h-[1100vh] text-white flex flex-col items-center">
+    <div className="bg-[#01041A] w-full h-[840vh] xl:h-[700vh] text-white flex flex-col items-center">
       <Header/>
       <Hero/>
       <About/>
@@ -16,6 +17,7 @@ export default function App() {
       <Faq/>
       <Experience/>
       <Approach/>
+      <Footer/>
     </div>
   )
 }
