@@ -5,7 +5,7 @@ import lamp from "../assets/lamp.svg"
 
 export default function Experience() {
     return (
-        <div className="flex flex-col justify-center items-center gap-5 xl:gap-7.5 pt-25 ml-auto mr-auto">
+        <div className="bg-[#01041A] flex flex-col justify-center items-center gap-5 xl:gap-7.5 pt-25 ml-auto mr-auto">
             <h2 className="pb-0 xl:pb-7.5 text-[36px] xl:text-[48px] font-bold leading-none text-center">My <span className="text-[#CBACF9]">work experience</span></h2>
             {/* wrapper */}
             <div className="flex flex-col gap-5 xl:flex-row xl:gap-10">

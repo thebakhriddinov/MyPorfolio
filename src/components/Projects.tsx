@@ -12,7 +12,7 @@ import manage from "../assets/manage.png"
 
 export default function Projects() {
     return (
-        <div id="projects" className="flex flex-col justify-center items-center gap-5 pt-25 ml-auto mr-auto">
+        <div id="projects" className="bg-[#01041A] flex flex-col justify-center items-center gap-5 pt-25 ml-auto mr-auto">
             <h2 className="pb-6 xl:pb-7.5 text-[36px] xl:text-[48px] font-bold leading-none text-center">A small selection of  <br className="xl:hidden flex"/><span className="text-[#CBACF9]">recent projects</span></h2>
             {/* Parent-wrapper */}
             <div className="flex flex-col xl:flex-row gap-5">

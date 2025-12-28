@@ -9,7 +9,7 @@ import Footer from "./components/Footer.tsx";
 
 export default function App() {
   return (
-    <div className="bg-[#01041A] w-full h-[840vh] xl:h-[700vh] text-white flex flex-col items-center">
+    <div className="bg-[#01041A] w-full  text-white flex flex-col items-center">
       <Header/>
       <Hero/>
       <About/>

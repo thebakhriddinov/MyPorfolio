@@ -7,7 +7,7 @@ import linkedn from "../assets/linkedn.svg"
 
 export default function Footer() {
     return (
-        <div id="contact" className="xl:pt-51.75 flex flex-col justify-center items-center gap-5 xl:gap-7.5 pt-37 ml-auto mr-auto">
+        <div id="contact" className="bg-[#01041A] pb-10 xl:pt-51.75 flex flex-col justify-center items-center gap-5 xl:gap-7.5 pt-37 ml-auto mr-auto">
             <div className="flex flex-col justify-center items-center gap-5">
                 <h2 className="pb-5 xl:pb-7.5 text-[36px] xl:text-[48px] font-bold leading-none text-center">Ready to take <span className="text-[#CBACF9]">your</span> <br className="xl:hidden"/> digital <br className="hidden xl:flex"/> presence to the next level?</h2>
                 <p className="text-center text-[#C1C2D3] ">Reach out to me today and let's discuss how I can <br className="xl:hidden"/> help you achieve your goals.</p>
