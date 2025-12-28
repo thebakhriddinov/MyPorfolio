@@ -11,7 +11,7 @@ import math from "../assets/math.svg"
 
 export default function About() {
     return (
-        <div className="pt-16 lg:pt-37.5 flex flex-col gap-5 ml-auto mr-auto">
+        <div id="about" className="pt-16 lg:pt-37.5 flex flex-col gap-5 ml-auto mr-auto">
             {/* First big wrapper */}
             <div className="flex flex-col gap-5 lg:flex-row">
                 {/* left-wrapper */}
