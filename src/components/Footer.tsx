@@ -1,4 +1,4 @@
-import arrow from "../assets/arrow.png"
+import arrow from "../assets/Arrow.png"
 import insta from "../assets/insta.svg"
 import x from "../assets/x.svg"
 import github from "../assets/github.svg"
