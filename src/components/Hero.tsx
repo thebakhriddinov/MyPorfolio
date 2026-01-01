@@ -3,10 +3,10 @@ import arrow from "../assets/Arrow.png"
 export default function Hero() {
     return (
         <div className="bg-[#01041A] flex flex-col justify-center items-center pt-16">
-            <p className="text-[12px] text-[#E4ECFF] md:text-14px lg:text-[16px] pb-5 xl:pb-5.5 font-normal">DYNAMIC WEB MAJIC WITH TYPESCRIPT</p>
-            <h1 className="pb-6 xl:pb-7.5 text-[48px] xl:text[72px] font-bold leading-none text-center">Transforming Concepts into <br className="hidden lg:block"/> Seamless <span className="text-[#CBACF9]">User Experiences</span></h1>
-            <p className="text-[16px] xl:text-[24px] xl:7.5 w-full text-center pb-5 xl:pb-[7.5] ">Hi! I’m <span className="hidden xl:inline">Bakhriddinov</span> Mustafo, <br className="lg:hidden"/> a Next.js Developer based in Uzbekistan</p>
-            <a
+            <p data-aos="fade-up" className="text-[12px] text-[#E4ECFF] md:text-14px lg:text-[16px] pb-5 xl:pb-5.5 font-normal">DYNAMIC WEB MAJIC WITH TYPESCRIPT</p>
+            <h1 data-aos="fade-up" className="pb-6 xl:pb-7.5 text-[48px] xl:text-[72px] font-bold leading-none text-center">Transforming Concepts into <br className="hidden lg:block"/> Seamless <span className="text-[#CBACF9]">User Experiences</span></h1>
+            <p data-aos="fade-up" className="text-[16px] xl:text-[24px] xl:7.5 w-full text-center pb-5 xl:pb-[7.5] ">Hi! I’m <span className="hidden xl:inline">Bakhriddinov</span> Mustafo, <br className="lg:hidden"/> a Next.js Developer based in Uzbekistan</p>
+            <a data-aos="fade-up"
                 className="hover:border-[#CBACF9] duration-300 active:text-gray-300 active:w-53 active:h-15 w-[90vw] lg:w-52 h-14 flex justify-center items-center gap-2 border-2 border-[#1B1E33] rounded-md lg:rounded-[14px]"
                 style={{
                     background: "linear-gradient(to right, #272A3C, #0F132A)",

@@ -6,9 +6,9 @@ import lamp from "../assets/lamp.svg"
 export default function Experience() {
     return (
         <div className="bg-[#01041A] flex flex-col justify-center items-center gap-5 xl:gap-7.5 pt-25 ml-auto mr-auto">
-            <h2 className="pb-0 xl:pb-7.5 text-[36px] xl:text-[48px] font-bold leading-none text-center">My <span className="text-[#CBACF9]">work experience</span></h2>
+            <h2 data-aos="fade-up" className="pb-0 xl:pb-7.5 text-[36px] xl:text-[48px] font-bold leading-none text-center">My <span className="text-[#CBACF9]">work experience</span></h2>
             {/* wrapper */}
-            <div className="flex flex-col gap-5 xl:flex-row xl:gap-10">
+            <div data-aos="fade-up" className="flex flex-col gap-5 xl:flex-row xl:gap-10">
                 <div className="bg-[#0C0E23] w-[90vw] xl:w-150 h-56 xl:h-47.5 pl-5 flex flex-col xl:flex-row xl:items-center xl:justify-start xl:gap-10  gap-1 justify-center rounded-[10px] xl:rounded-[23px] xl:border-t-5 border-t-7 border border-[#3637497D]">
                        <img className="w-15 pb-3 xl:w-23" src={hacker} alt="" />                 
                        <div className="flex flex-col gap-1">
@@ -26,7 +26,7 @@ export default function Experience() {
             </div>
 
             {/* wrapper */}
-            <div className="flex flex-col gap-5 xl:flex-row xl:gap-10">
+            <div data-aos="fade-up" className="flex flex-col gap-5 xl:flex-row xl:gap-10">
                 <div className="bg-[#0C0E23] w-[90vw] xl:w-150 h-56 xl:h-47.5 pl-5 flex flex-col xl:flex-row xl:items-center xl:justify-start xl:gap-10  gap-1 justify-center rounded-[10px] xl:rounded-[23px] xl:border-t-5 border-t-7 border border-[#3637497D]">
                        <img className="w-15 pb-3 xl:w-26 h-24.5" src={lamp} alt="" />                 
                        <div className="flex flex-col gap-1">

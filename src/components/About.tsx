@@ -29,7 +29,7 @@ export default function About() {
     return (
         <div id="about" className="bg-[#01041A] pt-16 lg:pt-37.5 flex flex-col gap-5 ml-auto mr-auto">
             {/* First big wrapper */}
-            <div className="flex flex-col gap-5 lg:flex-row">
+            <div data-aos="fade-up" className="flex flex-col gap-5 lg:flex-row">
                 {/* left-wrapper */}
                 <div className="flex flex-col justify-center items-center border rounded-[10px] xl:rounded-[23px] border-[#363749] relative w-[90vw] md:w-98 h-76.5 lg:w-172 lg:h-135">
                     <img className="rounded-[10px] xl:rounded-[23px] xl:w-full h-full w-full"src={pc} alt="pc" />
@@ -85,7 +85,7 @@ export default function About() {
 
 
             {/* Second big wrapper */}
-            <div className="flex flex-col gap-5 lg:flex-row">
+            <div data-aos="fade-up" className="flex flex-col gap-5 lg:flex-row">
                 {/* left-wrapper */}
                 <div className="flex flex-col gap-5 xl:gap-7">
                     <div className="h-35.5 relative border-[#3637497D] border rounded-[10px] xl:rounded-[23px] xl:w-88 xl:h-45 md:w-99.5">

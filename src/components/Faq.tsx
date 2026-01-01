@@ -9,10 +9,10 @@ import logo5 from "../assets/logo5.svg"
 export default function Faq() {
     return (
         <div id="testimonials" className="bg-[#01041A] flex flex-col justify-center items-center gap-5 pt-25 ml-auto mr-auto">
-            <h2 className="pb-0 xl:pb-7.5 text-[36px] xl:text-[48px] font-bold leading-none text-center">Kind words from <br className="xl:hidden flex"/><span className="text-[#CBACF9]">satisfied clients</span></h2>
+            <h2 data-aos="fade-up" className="pb-0 xl:pb-7.5 text-[36px] xl:text-[48px] font-bold leading-none text-center">Kind words from <br className="xl:hidden flex"/><span className="text-[#CBACF9]">satisfied clients</span></h2>
             {/* Horizontal scroll */}
 
-            <div className="flex gap-2 text-[10px]">
+            <div data-aos="fade-up" className="flex gap-2 text-[10px]">
                 <div
                     className="h-75.5 w-[90vw] overflow-x-auto flex gap-2 xl:gap-12 rounded-lg mt-10"
                     style={{ scrollbarWidth: "none" }}
@@ -99,7 +99,7 @@ export default function Faq() {
             </div>
 
             {/* logo-wrapper */}
-            <div className="mt-8 xl:mt-18 flex flex-wrap justify-center gap-2 xl:gap-10 xl:w-[90vw]">
+            <div data-aos="fade-up" className="mt-8 xl:mt-18 flex flex-wrap justify-center gap-2 xl:gap-10 xl:w-[90vw]">
                 <img className="xl:w-49 xl:h-9.5" src={logo1} alt="logo" />
                 <img className="xl:w-49 xl:h-9.5" src={logo2} alt="logo" /> <br className="xl:hidden"/>
                 <img className="xl:w-49 xl:h-9.5" src={logo3} alt="logo" />
