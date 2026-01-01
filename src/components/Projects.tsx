@@ -4,7 +4,9 @@ import ts from "../assets/ts.svg"
 import triangle from "../assets/triangle.svg"
 import arrow from "../assets/arrow.svg"
 import m from "../assets/m.svg"
-import temurbek2 from "../assets/temurbek.png"
+// import temurbek2 from "../assets/temurbek.png"
+// import temur from "../assets/temur.png"
+import desktop from "../assets/desktop.png"
 import start from "../assets/start.png"
 import bookmark from "../assets/bookmark.png"
 import manage from "../assets/manage.png"
@@ -19,8 +21,8 @@ export default function Projects() {
                 {/* child-wrapper */}
                 <div className="relative flex flex-col px-4 xl:px-6 gap-2 w-[90vw] h-90.5 md:w-99.5 md:h-90.5 xl:h-150 xl:w-154.5 border-[#3637497D] border rounded-[10px] xl:rounded-[23px]">
                     {/* scale */}
-                    <div className="overflow-hidden relative rounded-[10px] xl:rounded-[14px] my-5 xl:my-9 mx-1 w-[80vw] h-45.5 xl:w-138 xl:h-82.5 md:w-89.5 bg-linear-to-r from-[#2D3567] to-[#151A3A] ">
-                        <img className="overflow-hidden absolute top-10 left-7 md:left-12 xl:left-11 rotate-5 transition-all hover:scale-120 w-65 xl:w-118.5 xl:h-64 rounded-t-[10px]" src={temurbek2} alt="" />
+                    <div className="group border border-white/10 overflow-hidden relative rounded-[10px] xl:rounded-[14px] my-5 xl:my-9 mx-1 w-[80vw] h-45.5 xl:w-138 xl:h-70.5 md:w-89.5 bg-linear-to-r from-[#2D3567] to-[#151A3A] ">
+                        <a target="blank" href="https://temurbekk-schooll.vercel.app/"><img className="w-full object-cover transition-all duration-500 ease-out group-hover:scale-95 group-hover:blur-sm overflow-hidden rounded-t-[10px]" src={desktop} alt="" /></a>
                     </div>
                     <h3 className="text-[18px] xl:text-[32px] font-bold">Temurbek School Web Platform</h3>
                     <p className="text-[12px] xl:text-[20px] text-[#BEC1DD]">A modern educational platform providing an accessible and user-friendly with clean UI and responsive layouts.</p>
@@ -35,7 +37,7 @@ export default function Projects() {
                         </div>
                         {/* text-wrapper */}
                         <div className="absolute right-0 top-2">
-                            <a href="https://temurbekk-schooll.vercel.app/" className="text-[12px] xl:text-[20px]  text-[#CBACF9] flex gap-2 hover:underline">Check Live Site<img src={arrow} alt="arrow" /></a>
+                            <a target="blank" href="https://temurbekk-schooll.vercel.app/" className="text-[12px] xl:text-[20px]  text-[#CBACF9] flex gap-2 hover:underline">Check Live Site<img src={arrow} alt="arrow" /></a>
                         </div>
                     </div>
                 </div>
@@ -43,8 +45,8 @@ export default function Projects() {
                 {/* child-wrapper */}
                 <div className="relative flex flex-col px-4 xl:px-6 gap-2 w-[90vw] h-90.5 md:w-99.5 md:h-90.5 xl:h-150 xl:w-154.5 border-[#3637497D] border rounded-[10px] xl:rounded-[23px]">
                     {/* scale */}
-                    <div className="overflow-hidden relative rounded-[10px] xl:rounded-[14px] my-5 xl:my-9 mx-1 w-[80vw] h-45.5 xl:w-138 xl:h-82.5 md:w-89.5 bg-linear-to-r from-[#2D3567] to-[#151A3A] ">
-                        <img className="overflow-hidden absolute top-10 left-7 md:left-12 xl:left-11 rotate-5 transition-all hover:scale-120 w-65 xl:w-118.5 xl:h-64 rounded-t-[10px]" src={start} alt="" />
+                    <div className="group border border-white/10 overflow-hidden relative rounded-[10px] xl:rounded-[14px] my-5 xl:my-9 mx-1 w-[80vw] h-45.5 xl:w-138 xl:h-70.5 md:w-89.5 bg-linear-to-r from-[#2D3567] to-[#151A3A] ">
+                        <a target="blank" href="https://start-up-three-mu.vercel.app/"><img className="w-full object-cover transition-all duration-500 ease-out group-hover:scale-95 group-hover:blur-sm overflow-hidden rounded-t-[10px]" src={start} alt="start" /></a>
                     </div>
                     <h3 className="text-[18px] xl:text-[32px] font-bold">Innovate. Grow. Succeed.</h3>
                     <p className="text-[12px] xl:text-[20px] text-[#BEC1DD]">Custom solutions that drive real results. Take the first step toward extraordinary achievements.</p>
@@ -59,7 +61,7 @@ export default function Projects() {
                         </div>
                         {/* text-wrapper */}
                         <div className="absolute right-0 top-2">
-                            <a href="https://start-up-three-mu.vercel.app/" className="text-[12px] xl:text-[20px]  text-[#CBACF9] flex gap-2 hover:underline">Check Live Site<img src={arrow} alt="arrow" /></a>
+                            <a target="blank" href="https://start-up-three-mu.vercel.app/" className="text-[12px] xl:text-[20px]  text-[#CBACF9] flex gap-2 hover:underline">Check Live Site<img src={arrow} alt="arrow" /></a>
                         </div>
                     </div>
                 </div>
@@ -70,8 +72,8 @@ export default function Projects() {
                 {/* child-wrapper */}
                 <div className="relative flex flex-col px-4 xl:px-6 gap-2 w-[90vw] h-90.5 md:w-99.5 md:h-90.5 xl:h-150 xl:w-154.5 border-[#3637497D] border rounded-[10px] xl:rounded-[23px]">
                     {/* scale */}
-                    <div className="overflow-hidden relative rounded-[10px] xl:rounded-[14px] my-5 xl:my-9 mx-1 w-[80vw] h-45.5 xl:w-138 xl:h-82.5 md:w-89.5 bg-linear-to-r from-[#2D3567] to-[#151A3A] ">
-                        <img className="overflow-hidden absolute top-10 left-7 md:left-12 xl:left-11 rotate-5 transition-all hover:scale-120 w-65 xl:w-118.5 xl:h-64 rounded-t-[10px]" src={manage} alt="" />
+                    <div className="group border border-white/10 overflow-hidden relative rounded-[10px] xl:rounded-[14px] my-5 xl:my-9 mx-1 w-[80vw] h-45.5 xl:w-138 xl:h-70.5 md:w-89.5 bg-linear-to-r from-[#2D3567] to-[#151A3A] ">
+                        <a target="blank" href="https://manage-landing-page-master-ozodbek.vercel.app/"><img className="w-full object-cover transition-all duration-500 ease-out group-hover:scale-95 group-hover:blur-sm overflow-hidden rounded-t-[10px]" src={manage} alt="manage" /></a>
                     </div>
                     <h3 className="text-[18px] xl:text-[32px] font-bold">Management platform</h3>
                     <p className="text-[12px] xl:text-[20px] text-[#BEC1DD]">Manage helps teams plan tasks, track progress, and stay focused on what matters most.</p>
@@ -86,7 +88,7 @@ export default function Projects() {
                         </div>
                         {/* text-wrapper */}
                         <div className="absolute right-0 top-2">
-                            <a href="https://manage-landing-page-master-ozodbek.vercel.app/" className="text-[12px] xl:text-[20px]  text-[#CBACF9] flex gap-2 hover:underline">Check Live Site<img src={arrow} alt="arrow" /></a>
+                            <a target="blank" href="https://manage-landing-page-master-ozodbek.vercel.app/" className="text-[12px] xl:text-[20px]  text-[#CBACF9] flex gap-2 hover:underline">Check Live Site<img src={arrow} alt="arrow" /></a>
                         </div>
                     </div>
                 </div>
@@ -94,11 +96,11 @@ export default function Projects() {
                 {/* child-wrapper */}
                 <div className="relative flex flex-col px-4 xl:px-6 gap-2 w-[90vw] h-90.5 md:w-99.5 md:h-90.5 xl:h-150 xl:w-154.5 border-[#3637497D] border rounded-[10px] xl:rounded-[23px]">
                     {/* scale */}
-                    <div className="overflow-hidden relative rounded-[10px] xl:rounded-[14px] my-5 xl:my-9 mx-1 w-[80vw] h-45.5 xl:w-138 xl:h-82.5 md:w-89.5 bg-linear-to-r from-[#2D3567] to-[#151A3A] ">
-                        <img className="overflow-hidden absolute top-10 left-7 md:left-12 xl:left-11 rotate-5 transition-all hover:scale-120 w-65 xl:w-118.5 xl:h-64 rounded-t-[10px]" src={bookmark} alt="" />
+                    <div className="group border border-white/10 overflow-hidden relative rounded-[10px] xl:rounded-[14px] my-5 xl:my-9 mx-1 w-[80vw] h-45.5 xl:w-138 xl:h-70.5 md:w-89.5 bg-linear-to-r from-[#2D3567] to-[#151A3A] ">
+                        <a target="blank" href="https://bookmark-landing-page-ozodbek.vercel.app/"><img className="w-full object-cover transition-all duration-500 ease-out group-hover:scale-95 group-hover:blur-sm overflow-hidden rounded-t-[10px]" src={bookmark} alt="bookmark" /></a>
                     </div>
                     <h3 className="text-[18px] xl:text-[32px] font-bold">Bookmark web</h3>
-                    <p className="text-[12px] xl:text-[20px] text-[#BEC1DD]">This allows you to bookmark your favourite website which you do not lose your access to enter website fast.</p>
+                    <p className="text-[12px] xl:text-[20px] text-[#BEC1DD]">This allows you to bookmark your favourite website which you don't lose your access to enter website fast.</p>
                     <div className="relative">
                         {/* img-wrapper */}
                         <div className="relative">
@@ -110,7 +112,7 @@ export default function Projects() {
                         </div>
                         {/* text-wrapper */}
                         <div className="absolute right-0 top-2">
-                            <a href="https://bookmark-landing-page-ozodbek.vercel.app/" className="text-[12px] xl:text-[20px]  text-[#CBACF9] flex gap-2 hover:underline">Check Live Site<img src={arrow} alt="arrow" /></a>
+                            <a target="blank" href="https://bookmark-landing-page-ozodbek.vercel.app/" className="text-[12px] xl:text-[20px]  text-[#CBACF9] flex gap-2 hover:underline">Check Live Site<img src={arrow} alt="arrow" /></a>
                         </div>
                     </div>
                 </div>
