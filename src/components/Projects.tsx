@@ -21,7 +21,7 @@ export default function Projects() {
                 {/* child-wrapper */}
                 <div className="relative flex flex-col px-4 xl:px-6 gap-2 w-[90vw] h-90.5 md:w-99.5 md:h-90.5 xl:h-150 xl:w-154.5 border-[#3637497D] border rounded-[10px] xl:rounded-[23px]">
                     {/* scale */}
-                    <div className="group border border-white/10 overflow-hidden relative rounded-[10px] xl:rounded-[14px] my-5 xl:my-9 mx-1 w-[80vw] h-45.5 xl:w-138 xl:h-70.5 md:w-89.5 bg-linear-to-r from-[#2D3567] to-[#151A3A] ">
+                    <div className="group border border-white/10 overflow-hidden relative rounded-[10px] xl:rounded-[14px] my-5 xl:my-9 mx-1 w-[80vw] h-auto xl:w-138 xl:h-70.5 md:w-89.5 bg-linear-to-r from-[#2D3567] to-[#151A3A] ">
                         <a target="blank" href="https://temurbekk-schooll.vercel.app/"><img className="w-full object-cover transition-all duration-500 ease-out group-hover:scale-95 group-hover:blur-sm overflow-hidden rounded-t-[10px]" src={desktop} alt="" /></a>
                     </div>
                     <h3 className="text-[18px] xl:text-[32px] font-bold">Temurbek School Web Platform</h3>
@@ -45,7 +45,7 @@ export default function Projects() {
                 {/* child-wrapper */}
                 <div className="relative flex flex-col px-4 xl:px-6 gap-2 w-[90vw] h-90.5 md:w-99.5 md:h-90.5 xl:h-150 xl:w-154.5 border-[#3637497D] border rounded-[10px] xl:rounded-[23px]">
                     {/* scale */}
-                    <div className="group border border-white/10 overflow-hidden relative rounded-[10px] xl:rounded-[14px] my-5 xl:my-9 mx-1 w-[80vw] h-45.5 xl:w-138 xl:h-70.5 md:w-89.5 bg-linear-to-r from-[#2D3567] to-[#151A3A] ">
+                    <div className="group border border-white/10 overflow-hidden relative rounded-[10px] xl:rounded-[14px] my-5 xl:my-9 mx-1 w-[80vw] h-auto xl:w-138 xl:h-70.5 md:w-89.5 bg-linear-to-r from-[#2D3567] to-[#151A3A] ">
                         <a target="blank" href="https://start-up-three-mu.vercel.app/"><img className="w-full object-cover transition-all duration-500 ease-out group-hover:scale-95 group-hover:blur-sm overflow-hidden rounded-t-[10px]" src={start} alt="start" /></a>
                     </div>
                     <h3 className="text-[18px] xl:text-[32px] font-bold">Innovate. Grow. Succeed.</h3>
@@ -72,7 +72,7 @@ export default function Projects() {
                 {/* child-wrapper */}
                 <div className="relative flex flex-col px-4 xl:px-6 gap-2 w-[90vw] h-90.5 md:w-99.5 md:h-90.5 xl:h-150 xl:w-154.5 border-[#3637497D] border rounded-[10px] xl:rounded-[23px]">
                     {/* scale */}
-                    <div className="group border border-white/10 overflow-hidden relative rounded-[10px] xl:rounded-[14px] my-5 xl:my-9 mx-1 w-[80vw] h-45.5 xl:w-138 xl:h-70.5 md:w-89.5 bg-linear-to-r from-[#2D3567] to-[#151A3A] ">
+                    <div className="group border border-white/10 overflow-hidden relative rounded-[10px] xl:rounded-[14px] my-5 xl:my-9 mx-1 w-[80vw] h-auto xl:w-138 xl:h-70.5 md:w-89.5 bg-linear-to-r from-[#2D3567] to-[#151A3A] ">
                         <a target="blank" href="https://manage-landing-page-master-ozodbek.vercel.app/"><img className="w-full object-cover transition-all duration-500 ease-out group-hover:scale-95 group-hover:blur-sm overflow-hidden rounded-t-[10px]" src={manage} alt="manage" /></a>
                     </div>
                     <h3 className="text-[18px] xl:text-[32px] font-bold">Management platform</h3>
@@ -96,7 +96,7 @@ export default function Projects() {
                 {/* child-wrapper */}
                 <div className="relative flex flex-col px-4 xl:px-6 gap-2 w-[90vw] h-90.5 md:w-99.5 md:h-90.5 xl:h-150 xl:w-154.5 border-[#3637497D] border rounded-[10px] xl:rounded-[23px]">
                     {/* scale */}
-                    <div className="group border border-white/10 overflow-hidden relative rounded-[10px] xl:rounded-[14px] my-5 xl:my-9 mx-1 w-[80vw] h-45.5 xl:w-138 xl:h-70.5 md:w-89.5 bg-linear-to-r from-[#2D3567] to-[#151A3A] ">
+                    <div className="group border border-white/10 overflow-hidden relative rounded-[10px] xl:rounded-[14px] my-5 xl:my-9 mx-1 w-[80vw] h-auto xl:w-138 xl:h-70.5 md:w-89.5 bg-linear-to-r from-[#2D3567] to-[#151A3A] ">
                         <a target="blank" href="https://bookmark-landing-page-ozodbek.vercel.app/"><img className="w-full object-cover transition-all duration-500 ease-out group-hover:scale-95 group-hover:blur-sm overflow-hidden rounded-t-[10px]" src={bookmark} alt="bookmark" /></a>
                     </div>
                     <h3 className="text-[18px] xl:text-[32px] font-bold">Bookmark web</h3>
