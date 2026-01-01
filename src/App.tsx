@@ -15,8 +15,8 @@ export default function App() {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      always: true,
-      easing: "zoom-in",
+      once: false,
+      easing: "ease-out-cubic",
     });
   }, []);
 
