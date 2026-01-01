@@ -1,3 +1,4 @@
+import { useState } from "react";
 import pc from "../assets/pc.svg"
 import pink from "../assets/pink.svg"
 import yellow from "../assets/yellow.svg"
@@ -10,6 +11,21 @@ import copy from "../assets/copy.svg"
 import math from "../assets/math.svg"
 
 export default function About() {
+    const email = "bakhriddinof01@gmail.com";
+    
+    const [copied, setCopied] = useState(false);
+
+    const handleCopy = async () => {
+        try {
+            await navigator.clipboard.writeText(email);
+            setCopied(true);
+
+            setTimeout(() => setCopied(false), 2000);
+        } catch (err) {
+            console.error("Copy failed", err);
+        }
+    }
+
     return (
         <div id="about" className="bg-[#01041A] pt-16 lg:pt-37.5 flex flex-col gap-5 ml-auto mr-auto">
             {/* First big wrapper */}
@@ -80,7 +96,7 @@ export default function About() {
                     <div className="h-35.5 relative border-[#3637497D] flex flex-col gap-2 justify-center items-center border rounded-[10px] xl:rounded-[23px] xl:w-88 xl:h-45 ">
                         <h2 className="leading-6 top-8 left-4 text-[18px] xl:text-[24px] font-bold text-center">Do you want to start <br className="hidden xl:inline"/> a  <br className="xl:hidden"/> project together?.</h2>
                         <img className="absolute top-0 left-0 rounded-[10px] xl:rounded-[23px] xl:h-full" src={blur} alt="background" />
-                        <button className="rounded-[7px] text-[12px] gap-1 z-20 bg-[#080B21] border border-[#3637497D]  w-44 h-9.5 flex justify-center items-center"><img src={copy} alt="" />Copy my email address</button>
+                        <button onClick={handleCopy} className="cursor-pointer rounded-[7px] text-[12px] gap-1 z-20 bg-[#080B21] border border-[#3637497D]  w-44 h-9.5 flex justify-center items-center"><img src={copy} alt="" />{copied ? "Copied !" : "Copy my email address"}</button>
                     </div> 
                 </div>
                 {/* right-wrapper */}
