@@ -6,12 +6,14 @@ export default function Approach() {
             <h2 className="pb-5 xl:pb-7.5 text-[36px] xl:text-[48px] font-bold leading-none text-center">My <span className="text-[#CBACF9]">approach</span></h2>
             {/* wrapper */}
             <div className="flex flex-col gap-10.5 xl:flex-row">
-                <div className="xl:w-97 xl:h-155 bg-linear-to-b from-[#04071D] to-[#0C0E23] relative w-[90vw] h-125 flex justify-center items-center rounded-[10px] border border-[#3637497D]">
+                <div className="xl:w-97 xl:h-155 bg-linear-to-b from-[#04071D] to-[#0C0E23] relative w-[90vw] h-125 flex flex-col gap-5 justify-center items-center rounded-[10px] border border-[#3637497D]">
                     <img className="absolute -top-4 -left-3" src={plus} alt="plus" />
                     <img className="absolute -top-4 -right-3" src={plus} alt="plus" />
                     <img className="absolute -bottom-4 -left-3" src={plus} alt="plus" />
                     <img className="absolute -bottom-4 -right-3" src={plus} alt="plus" />
-                    <button className="xl:w-40 xl:h-18 xl:text-[30px] cursor-pointer bg-gradie text-[25px] text-[#CBACF9] font-bold border rounded-[10px] border-[#3637497D] w-34.25 h-16.25">Phase 1</button>
+                    <button className="xl:w-25 xl:h-10.75 cursor-pointer bg-gradie text-[#CBACF9] font-bold border rounded-[10px] border-[#3637497D] w-34.25 h-16.25">Phase 1</button>
+                    <h3 className="text-center text-[30px] font-bold leading-none">Planning & Research</h3>
+                    <p className="text-center text-[#E4ECFF]">Before writing a single line of code, I focus <br /> on  understanding the problem. I analyze <br /> requirements, research the best solutions, <br /> and plan a clear structure to ensure the <br /> project starts on a solid foundation.</p>
                 </div>
                 <div className="xl:w-97 xl:h-155 bg-linear-to-b from-[#04071D] to-[#0C0E23] relative w-[90vw] h-125 flex flex-col gap-5 justify-center items-center rounded-[10px] border border-[#3637497D]">
                     <img className="absolute -top-4 -left-3" src={plus} alt="plus" />
@@ -22,12 +24,14 @@ export default function Approach() {
                     <h3 className="text-center text-[30px] font-bold leading-none">Development & <br /> Progress Update</h3>
                     <p className="text-center text-[#E4ECFF]">Once we agree on the plan, I cue my lofi <br /> playlist and dive into coding. From initial <br /> sketches to polished code, I keep you <br /> updated every step of the way.</p>
                 </div>
-                <div className="xl:w-97 xl:h-155 bg-linear-to-b from-[#04071D] to-[#0C0E23] relative w-[90vw] h-125 flex justify-center items-center rounded-[10px] border border-[#3637497D]">
+                <div className="xl:w-97 xl:h-155 bg-linear-to-b from-[#04071D] to-[#0C0E23] relative w-[90vw] h-125 flex flex-col gap-5 justify-center items-center rounded-[10px] border border-[#3637497D]">
                     <img className="absolute -top-4 -left-3" src={plus} alt="plus" />
                     <img className="absolute -top-4 -right-3" src={plus} alt="plus" />
                     <img className="absolute -bottom-4 -left-3" src={plus} alt="plus" />
                     <img className="absolute -bottom-4 -right-3" src={plus} alt="plus" />
-                    <button className="xl:w-40 xl:h-18 xl:text-[30px] cursor-pointer bg-gradie text-[25px] text-[#CBACF9] font-bold border rounded-[10px] border-[#3637497D] w-34.25 h-16.25">Phase 3</button>
+                    <button className="xl:w-25 xl:h-10.75 cursor-pointer bg-gradie text-[#CBACF9] font-bold border rounded-[10px] border-[#3637497D] w-34.25 h-16.25">Phase 3</button>
+                    <h3 className="text-center text-[30px] font-bold leading-none">Testing & Delivery</h3>
+                    <p className="text-center text-[#E4ECFF]">I carefully test the project to ensure <br /> performance, responsiveness,and clean <br /> code. After final refinements, I deliver a high <br />-quality product that’s ready to launch.</p>
                 </div>
 
             </div>
