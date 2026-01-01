@@ -17,7 +17,7 @@ export default function Projects() {
         <div id="projects" className="bg-[#01041A] flex flex-col justify-center items-center gap-5 pt-25 ml-auto mr-auto">
             <h2 data-aos="fade-up" className="pb-6 xl:pb-7.5 text-[36px] xl:text-[48px] font-bold leading-none text-center">A small selection of  <br className="xl:hidden flex"/><span className="text-[#CBACF9]">recent projects</span></h2>
             {/* Parent-wrapper */}
-            <div data-aos="fade-up" className="flex flex-col xl:flex-row gap-5">
+            <div data-aos="fade-up" className="flex flex-col lg:flex-row gap-5">
                 {/* child-wrapper */}
                 <div className="relative flex flex-col px-4 xl:px-6 gap-2 w-[90vw] h-90.5 md:w-99.5 md:h-90.5 xl:h-150 xl:w-154.5 border-[#3637497D] border rounded-[10px] xl:rounded-[23px]">
                     {/* scale */}
@@ -68,7 +68,7 @@ export default function Projects() {
 
             </div>
             {/* Parent-wrapper */}
-            <div data-aos="fade-up" className="flex flex-col xl:flex-row gap-5">
+            <div data-aos="fade-up" className="flex flex-col lg:flex-row gap-5">
                 {/* child-wrapper */}
                 <div className="relative flex flex-col px-4 xl:px-6 gap-2 w-[90vw] h-90.5 md:w-99.5 md:h-90.5 xl:h-150 xl:w-154.5 border-[#3637497D] border rounded-[10px] xl:rounded-[23px]">
                     {/* scale */}
